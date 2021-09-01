@@ -66,13 +66,7 @@ def hero():
     newperiod=period
     banner='figlet RXCE'
   
-        if (len(numbers)>11):
-            clear()
-            system('figlet Thank you!!')
-            print("Play on next specified time!!")
-            print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
-            #print(numbers)
+
 
 
 if(expirydate>today):
