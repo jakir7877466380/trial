@@ -10,8 +10,8 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-#expirydate = datetime.date(2021, 9, 1)
-expirydate = datetime.date(2021, 8, 30)
+expirydate = datetime.date(2021, 9, 3)
+#expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
 
@@ -65,6 +65,65 @@ def hero():
     y=1
     newperiod=period
     banner='figlet RXCE'
+    thisway=[3,11,14,15,19]
+    thatway=[1,2,4,6,5,7,8,9,10,12,13,16,17,18,20]
+    numbers=[]
+    while(y):
+        clear()
+        system(banner)
+        print("Contact me on telegram @Prithvihackz")
+        print("Enter ",newperiod," Parity Price :")
+        current=input()
+        current=int(current)
+        #chalo()
+        print("\n---------Successfully hacked the server-----------")
+        #chalo1()
+        print("\n---------Successfully got the colour -------------")
+        print('\n')
+        def getSum(n):
+            sum=0
+            for digit in str(n):
+                sum += int(digit)
+            return sum
+        if i in thisway:
+            m=getSum(current)
+            n=int(current)%10
+            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
+                if current in numbers:
+                    print(newperiod+1," : RED")
+                else:
+                    print(newperiod+1," : GREEN")
+            else:
+                if current in numbers:
+                    print(newperiod+1," : GREEN")
+                else:
+                    print(newperiod+1," : RED")
+        if i in thatway:
+            m=getSum(current)+1
+            n=int(current)%10
+            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
+                if current in numbers:
+                    print(newperiod+1,": RED")
+                else:
+                    print(newperiod+1,": GREEN")
+            else:
+                if current in numbers:
+                    print(newperiod+1,": GREEN")
+                else:
+                    print(newperiod+1,": RED")
+        i=i+1
+        newperiod+=1
+        numbers.append(current)
+        y=input("Do you want to play : Press 1 and 0 to exit \n")
+        if(y==0):
+            y=False
+        if (len(numbers)>11):
+            clear()
+            system('figlet Thank you!!')
+            print("Play on next specified time!!")
+            print("-----------Current Time UP----------")
+            sys.exit(" \n \n \n Contact on Telegram @Prithvihackz")
+            #print(numbers)
   
 
 
@@ -89,7 +148,7 @@ if(expirydate>today):
     elif(now>Third and now<Thirdend):
             period=340
             hero()
-    elif(now>Final and now<Finalend):
+    elif(False):
             period=360
             hero()
     else:
