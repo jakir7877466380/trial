@@ -65,13 +65,13 @@ def hero():
     y=1
     newperiod=period
     banner='figlet RXCE'
-    thisway=[3,11,14,15,19]
-    thatway=[1,2,4,6,5,7,8,9,10,12,13,16,17,18,20]
+    thisway=[2,6,8,11,12,15,16,18,19,20]
+    thatway=[1,3,4,5,7,9,10,14,13,17]
     numbers=[]
     while(y):
         clear()
         system(banner)
-        print("Contact me on telegram @Prithvihackz")
+        print("Contact me on telegram @smsn_knt")
         print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
@@ -122,7 +122,7 @@ def hero():
             system('figlet Thank you!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @Prithvihackz")
+            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
             #print(numbers)
   
 
@@ -153,12 +153,13 @@ if(expirydate>today):
             hero()
     else:
         banner='figlet RXCE'
-        print("Hi!! Thanks for buying the hack")
+        #print("Hi!! Thanks for buying the hack")
+        print("Hi! thanks for trying our DEMO")
         print("----------Your play time-----------")
-        print("31st Aug 2021, 11:00 AM- 11:30 AM")
-        print("31st Aug 2021, 02:00 PM- 02:30 PM")
-        print("31st Aug 2021, 05:00 PM- 05:30 PM")
-        print("31st Aug 2021, 08:00 PM- 08:30 PM")
+        #print("31st Aug 2021, 11:00 AM- 11:30 AM")
+        #print("31st Aug 2021, 02:00 PM- 02:30 PM")
+        print("2nd Sept 2021, 05:00 PM- 05:30 PM")
+        #print("31st Aug 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @smsn_knt ")
