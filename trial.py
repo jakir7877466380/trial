@@ -83,9 +83,9 @@ def hero():
         print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
-        #chalo()
+        chalo()
         print("\n---------Successfully hacked the server-----------")
-        #chalo1()
+        chalo1()
         print("\n---------Successfully got the colour -------------")
         print('\n')
         last2=str(current)[-2:]
