@@ -10,7 +10,7 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2021, 9, 3)
+expirydate = datetime.date(2021, 9, 11)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
@@ -60,15 +60,22 @@ def hero():
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-
+    def getSum(n):
+        sum=0
+        for digit in str(n):
+            sum+= int(digit)
+        return sum
+    def checkg(n):
+        check=0
+        for digit in (n):
+            if(int(digit)==0):
+                check=check+1
+        return check
     clear()
     y=1
     newperiod=period
     banner='figlet RXCE'
-    thisway=[2,6,8,11,12,15,16,18,19,20]
-    thatway=[1,3,4,5,7,9,10,14,13,17]
     numbers=[]
-    i=1
     while(y):
         clear()
         system(banner)
@@ -76,43 +83,25 @@ def hero():
         print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
-        chalo()
+        #chalo()
         print("\n---------Successfully hacked the server-----------")
-        chalo1()
+        #chalo1()
         print("\n---------Successfully got the colour -------------")
         print('\n')
-        def getSum(n):
-            sum=0
-            for digit in str(n):
-                sum += int(digit)
-            return sum
-        if i in thisway:
-            m=getSum(current)
-            n=int(current)%10
-            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
-                if current in numbers:
-                    print(newperiod+1," : RED")
-                else:
-                    print(newperiod+1," : GREEN")
+        last2=str(current)[-2:]
+        check=checkg(last2)
+        if(newperiod%2==0):
+            sum=getSum(current)+check
+            if(sum%2==0):
+                print(newperiod+1," : RED")
             else:
-                if current in numbers:
-                    print(newperiod+1," : GREEN")
-                else:
-                    print(newperiod+1," : RED")
-        if i in thatway:
-            m=getSum(current)+1
-            n=int(current)%10
-            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
-                if current in numbers:
-                    print(newperiod+1,": RED")
-                else:
-                    print(newperiod+1,": GREEN")
+                print(newperiod+1,"  : GREEN")
+        else:
+            sum=getSum(current)+check+1
+            if(sum%2==0):
+                print(newperiod+1,"   : RED")
             else:
-                if current in numbers:
-                    print(newperiod+1,": GREEN")
-                else:
-                    print(newperiod+1,": RED")
-        i=i+1
+                print(newperiod+1,"   : GREEN")
         newperiod+=1
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")
@@ -133,8 +122,8 @@ if(expirydate>today):
     now = datetime.datetime.now()
     First = now.replace(hour=13, minute=55, second=0, microsecond=0)
     Firstend = now.replace(hour=14, minute=35, second=0, microsecond=0)
-    Second = now.replace(hour=15, minute=55, second=0, microsecond=0)
-    Secondend = now.replace(hour=16, minute=35, second=0, microsecond=0)
+    Second = now.replace(hour=16, minute=25, second=0, microsecond=0)
+    Secondend = now.replace(hour=17, minute=5, second=0, microsecond=0)
     Third = now.replace(hour=16, minute=55, second=0, microsecond=0)
     Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
     Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
@@ -143,10 +132,10 @@ if(expirydate>today):
     if (False):
             period=220
             hero()
-    elif(now>First and now<Firstend):
-            period=280
+    elif(Second>now and Secondend<now):
+            period=290
             hero()
-    elif(now>Third and now<Thirdend):
+    elif(False):
             period=340
             hero()
     elif(False):
@@ -154,12 +143,13 @@ if(expirydate>today):
             hero()
     else:
         banner='figlet RXCE'
+        system(banner)
         #print("Hi!! Thanks for buying the hack")
         print("Hi! thanks for trying our DEMO")
         print("----------Your play time-----------")
         #print("31st Aug 2021, 11:00 AM- 11:30 AM")
         #print("31st Aug 2021, 02:00 PM- 02:30 PM")
-        print("2nd Sept 2021, 05:00 PM- 05:30 PM")
+        print("10th Sept 2021, 04:30 PM- 05:00 PM")
         #print("31st Aug 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
