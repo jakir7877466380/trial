@@ -173,7 +173,6 @@ else:
     print("If you send to any other name , then IT IS SCAMMM")
     print("--------*--------*----------*---------")
     print("send payment only to SUNNY KUMAR ")
-    print("any other name is totally SCAM")
     print("payhere--- UPI : ")
     print("UPI1 : mdurth@ybl")
     print("UPI2 : sunnyk16@fbl")
