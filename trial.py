@@ -168,3 +168,6 @@ else:
     print(" 2.     5000 INR -------  7 Days(280 Games")
     print("*---------*----------*-------------*----------*")
     print("Your custom hack can be made request from us.")
+    print("Beware of fraudsters!!!")
+    print("My banking name is SUNNY KUMAR")
+    print("If you send to any other name , then IT IS SCAMMM")
