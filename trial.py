@@ -10,7 +10,7 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2021, 9, 11)
+expirydate = datetime.date(2021, 9, 17)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
@@ -65,6 +65,12 @@ def hero():
         for digit in str(n):
             sum+= int(digit)
         return sum
+    def checkg(n):
+        check=0
+        for digit in (n):
+            if(int(digit)==0):
+                check=check+1
+        return check
 
     clear()
     y=1
