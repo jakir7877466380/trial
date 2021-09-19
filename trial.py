@@ -65,12 +65,6 @@ def hero():
         for digit in str(n):
             sum+= int(digit)
         return sum
-    def checkg(n):
-        check=0
-        for digit in (n):
-            if(int(digit)==0):
-                check=check+1
-        return check
 
     clear()
     y=1
@@ -133,7 +127,7 @@ if(expirydate>today):
     if (False):
             period=220
             hero()
-    elif(now>Second and now<Secondend):
+    elif(False):
             period=340
             hero()
     elif(False):
