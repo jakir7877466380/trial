@@ -10,7 +10,7 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2021, 9, 17)
+expirydate = datetime.date(2021, 9, 24)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
@@ -65,6 +65,12 @@ def hero():
         for digit in str(n):
             sum+= int(digit)
         return sum
+    def checkg(n):
+        check=0
+        for digit in (n):
+            if(int(digit)==0):
+                check=check+1
+        return check
 
     clear()
     y=1
@@ -88,15 +94,15 @@ def hero():
         if(newperiod%2==0):
             sum=getSum(current)+check
             if(sum%2==0):
-                print(newperiod+1," : RED")
+                print(newperiod+1," : GREEN")
             else:
-                print(newperiod+1,"  : GREEN")
+                print(newperiod+1,"  : RED")
         else:
             sum=getSum(current)+check+1
             if(sum%2==0):
-                print(newperiod+1,"   : RED")
-            else:
                 print(newperiod+1,"   : GREEN")
+            else:
+                print(newperiod+1,"   : RED")
         newperiod+=1
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")
@@ -119,13 +125,13 @@ if(expirydate>today):
     Firstend = now.replace(hour=14, minute=35, second=0, microsecond=0)
     Second = now.replace(hour=16, minute=25, second=0, microsecond=0)
     Secondend = now.replace(hour=17, minute=35, second=0, microsecond=0)
-    Third = now.replace(hour=16, minute=55, second=0, microsecond=0)
-    Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
+    Third = now.replace(hour=15, minute=55, second=0, microsecond=0)
+    Thirdend = now.replace(hour=16, minute=35, second=0, microsecond=0)
     Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
     Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
-    if (False):
-            period=220
+    if (now>Third and now<Thirdend):
+            period=320
             hero()
     elif(False):
             period=340
@@ -144,7 +150,7 @@ if(expirydate>today):
         print("----------Your play time-----------")
         #print("31st Aug 2021, 11:00 AM- 11:30 AM")
         #print("31st Aug 2021, 02:00 PM- 02:30 PM")
-        print("16th Sept 2021, 04:30 PM- 05:00 PM")
+        print("23rd Sept 2021, 04:00 PM- 04:30 PM")
         #print("31st Aug 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
