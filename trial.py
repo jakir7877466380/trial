@@ -152,7 +152,7 @@ if(expirydate>today):
 
 
 else:
-    code=RXCE8448
+    code="RXCE8448"
     banner='figlet RXCE'
     system(banner)
     print("*---------*----------*-------------*----------*")
