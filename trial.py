@@ -178,7 +178,8 @@ else:
     print("UPI1 : mdurth@ybl")
     print("UPI2 : sunnyk16@fbl")
     while(True):
-        bhai=input("please Enter activation code for 2:30 PM : ")
+        clear()
+        bhai=input("please Enter Correct activation code for 2:30 PM : ")
         if(bhai==code):
             period=290
             hero()
