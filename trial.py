@@ -65,12 +65,6 @@ def hero():
         for digit in str(n):
             sum+= int(digit)
         return sum
-    def checkg(n):
-        check=0
-        for digit in (n):
-            if(int(digit)==0):
-                check=check+1
-        return check
     clear()
     y=1
     newperiod=period
@@ -187,10 +181,10 @@ else:
         print("UPI2 : sunnyk16@fbl")
         print("If you have already paid to above UPI")
         print("Please Enter your 12 Digit \n UPI reference number ")
-        print("or please Enter Correct activation code for 6:30 PM ")
+        print("or please Enter Correct activation code for 8:30 PM ")
         bhai=input(": ")
         if(bhai==code):
-            period=370
+            period=410
             hero()
         else:
             clear()
