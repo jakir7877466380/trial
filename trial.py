@@ -186,10 +186,10 @@ else:
     print("UPI2 : sunnyk16@fbl")
     while(True):
         print("If you have already paid to above UPI")
-        print("Please Enter your 12 Digit UPI reference number ")
-        bhai=input("or please Enter Correct activation code for 5:30 PM : ")
+        print("Please Enter your 12 Digit \n UPI reference number ")
+        bhai=input("or please Enter Correct activation code for 6:30 PM : ")
         if(bhai==code):
-            period=350
+            period=370
             hero()
         else:
             clear()
