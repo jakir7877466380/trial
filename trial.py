@@ -165,7 +165,7 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="9999555421235"
+    code="921112TT1L"
     banner='figlet RXCE'
     system(banner)
     print("*---------*----------*-------------*----------*")
@@ -177,17 +177,18 @@ else:
     print("*---------*----------*-------------*----------*")
     print("Your custom hack can be made request from us.")
     print("Beware of fraudsters!!!")
-    print("My banking name is SUNNY KUMAR")
-    print("If you send to any other name , then IT IS SCAMMM")
-    print("--------*--------*----------*---------")
-    print("send payment only to SUNNY KUMAR ")
-    print("payhere--- UPI : ")
-    print("UPI1 : mdurth@ybl")
-    print("UPI2 : sunnyk16@fbl")
     while(True):
+        print("My banking name is SUNNY KUMAR")
+        print("If you send to any other name , then IT IS SCAMMM")
+        print("--------*--------*----------*---------")
+        print("send payment only to SUNNY KUMAR ")
+        print("payhere--- UPI : ")
+        print("UPI1 : mdurth@ybl")
+        print("UPI2 : sunnyk16@fbl")
         print("If you have already paid to above UPI")
         print("Please Enter your 12 Digit \n UPI reference number ")
-        bhai=input("or please Enter Correct activation code for 6:30 PM : ")
+        print("or please Enter Correct activation code for 6:30 PM ")
+        bhai=input(": ")
         if(bhai==code):
             period=370
             hero()
