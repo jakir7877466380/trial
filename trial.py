@@ -152,6 +152,7 @@ if(expirydate>today):
 
 
 else:
+    code=RXCE8448
     banner='figlet RXCE'
     system(banner)
     print("*---------*----------*-------------*----------*")
@@ -170,3 +171,13 @@ else:
     print("payhere--- UPI : ")
     print("UPI1 : mdurth@ybl")
     print("UPI2 : sunnyk16@fbl")
+    while(True):
+        bhai=input("please Enter activation code for 2:30 PM : ")
+        if(bhai==code):
+            period=290
+            hero()
+        else:
+            banner='figlet RXCE'
+            system(banner)
+            print("Incorrect Activation Code :")
+     
