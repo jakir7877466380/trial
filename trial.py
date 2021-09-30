@@ -189,7 +189,7 @@ else:
         print("Please Enter your 12 Digit UPI reference number ")
         bhai=input("or please Enter Correct activation code for 5:30 PM : ")
         if(bhai==code):
-            period=
+            period=350
             hero()
         else:
             clear()
