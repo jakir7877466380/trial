@@ -201,7 +201,7 @@ else:
             print("5th Oct 2021, 07:00 PM- 07:30 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
-            print(" admin on telegram @smsn_knt ")
+            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
             
             
         else:
