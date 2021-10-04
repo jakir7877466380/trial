@@ -198,7 +198,7 @@ else:
             time.sleep(20)
             period=390
             hero()
-        elif(bhai==nextday):
+        elif(bhai==nextday or bhai==nextday1):
             clear()
             banner='figlet RXCE'
             system(banner)
