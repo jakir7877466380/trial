@@ -184,7 +184,9 @@ else:
         print("or please Enter Correct activation code for 8:30 PM ")
         bhai=input(": ")
         if(bhai==code):
-            print("Your play time is 4:30,7:30 PM Today, 4th Oct 2021"
+            print("Your play time is 4:30,7:30 PM Today, 4th Oct 2021")
+            print("Only play on your given time:)
+            time.sleep(20)
             period=330
             hero()
         else:
