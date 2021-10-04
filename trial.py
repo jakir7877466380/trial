@@ -160,6 +160,7 @@ else:
         else:
             _ = system('clear')
     code="HOPEISKEY"
+    nextday="ANKUSH"
     banner='figlet RXCE'
     system(banner)
     print("*---------*----------*-------------*----------*")
@@ -190,6 +191,19 @@ else:
             time.sleep(20)
             period=330
             hero()
+        elif(bhai==nextday):
+            clear()
+            banner='figlet RXCE'
+            system(banner)
+            print("----------Your play time-----------")
+            print("5th Oct 2021, 02:00 PM- 02:30 PM")
+            print("5th Oct 2021, 04:00 PM- 04:30 PM")
+            print("5th Oct 2021, 07:00 PM- 07:30 PM")
+            print("Please play on the given time, and ")
+            print("If you think it is an error contact")
+            print(" admin on telegram @smsn_knt ")
+            
+            
         else:
             clear()
             banner='figlet RXCE'
