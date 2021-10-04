@@ -167,6 +167,7 @@ else:
             _ = system('clear')
     code="HOPEISKEY"
     nextday="ANKUSH"
+    nexday1="VIKRAM"
     banner='figlet RXCE'
     system(banner)
     print("*---------*----------*-------------*----------*")
