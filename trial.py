@@ -89,7 +89,7 @@ def hero():
         print("\n---------Successfully got the colour -------------")
         print('\n')
         last2=str(current)[-2:]
-        smjha_maadarchod=lawde_time_pe_khel(last2)
+        samjha_maadarchod=lawde_time_pe_khel(last2)
         if(newperiod%2==0):
             sum=getSum(current)+samjha_maadarchod
             if(sum%2==0):
