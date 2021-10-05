@@ -65,6 +65,12 @@ def hero():
         for digit in str(n):
             sum+= int(digit)
         return sum
+    def lawde_time_pe_khel(n):
+        check=0
+        for digit in (n):
+            if(int(digit)==0):
+                check=check+1
+        return check
     clear()
     y=1
     newperiod=period
@@ -187,24 +193,24 @@ else:
         bhai=input(": ")
         if(bhai==code):
             clear()
-            print("Your play time is 02:00 PM Today, 4th Oct 2021")
+            print("Your play time is 04:00 PM Today, 4th Oct 2021")
             print("Only play on your given time:")
             time.sleep(20)
-            period=280
+            period=320
             hero()
         elif(bhai==nextday or bhai==nexday1):
             clear()
             banner='figlet RXCE'
             system(banner)
             print("----------Your play time-----------")
-            print("5th Oct 2021, 02:00 PM- 02:30 PM")
             print("5th Oct 2021, 04:00 PM- 04:30 PM")
-            print("5th Oct 2021, 07:00 PM- 07:30 PM")
+            print("5th Oct 2021, 06:00 PM- 06:30 PM")
+            print("5th Oct 2021, 08:00 PM- 08:30 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
             #print("wait.... starting....")
             #time.sleep(20)
-            #period=280
+            #period=320
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
             
             
