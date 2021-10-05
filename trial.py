@@ -196,7 +196,7 @@ else:
             print("Your play time is 04:00 PM Today, 5th Oct 2021")
             print("Only play on your given time:")
             time.sleep(20)
-            period=320
+            period=400
             hero()
         elif(bhai==nextday or bhai==nexday1):
             clear()
@@ -210,7 +210,7 @@ else:
             print("If you think it is an error contact")
             print("wait.... starting....")
             time.sleep(20)
-            period=320
+            period=400
             hero()
             #sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
             
