@@ -193,7 +193,7 @@ else:
         bhai=input(": ")
         if(bhai==code):
             clear()
-            print("Your play time is 04:00 PM Today, 4th Oct 2021")
+            print("Your play time is 04:00 PM Today, 5th Oct 2021")
             print("Only play on your given time:")
             time.sleep(20)
             period=320
