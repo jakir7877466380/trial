@@ -211,6 +211,7 @@ else:
             print("wait.... starting....")
             time.sleep(20)
             period=320
+            hero()
             #sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
             
             
