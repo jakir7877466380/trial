@@ -87,15 +87,15 @@ def hero():
         if(newperiod%2==0):
             sum=getSum(current)+samjha_maadarchod
             if(sum%2==0):
-                print(newperiod+1," : 🔴")
+                print(newperiod+1," : 🔴, RED")
             else:
-                print(newperiod+1,"  : 🟢")
+                print(newperiod+1,"  : 🟢, GREEN")
         else:
             sum=getSum(current)+samjha_maadarchod+1
             if(sum%2==0):
-                print(newperiod+1,"   : 🔴")
+                print(newperiod+1,"   : 🔴, RED")
             else:
-                print(newperiod+1,"   : 🟢")
+                print(newperiod+1,"   : 🟢, GREEN")
         newperiod+=1
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")
@@ -187,10 +187,10 @@ else:
         bhai=input(": ")
         if(bhai==code):
             clear()
-            print("Your play time is 4:30,7:30 PM Today, 4th Oct 2021")
+            print("Your play time is 02:00 PM Today, 4th Oct 2021")
             print("Only play on your given time:")
             time.sleep(20)
-            period=390
+            period=280
             hero()
         elif(bhai==nextday or bhai==nexday1):
             clear()
@@ -202,6 +202,8 @@ else:
             print("5th Oct 2021, 07:00 PM- 07:30 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
+            #print("wait.... starting....")
+            #time.sleep(20)
             #period=280
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
             
