@@ -208,10 +208,10 @@ else:
             print("5th Oct 2021, 08:00 PM- 08:30 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
-            #print("wait.... starting....")
-            #time.sleep(20)
-            #period=320
-            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
+            print("wait.... starting....")
+            time.sleep(20)
+            period=320
+            #sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
             
             
         else:
