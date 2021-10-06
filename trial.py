@@ -200,7 +200,9 @@ else:
             print("wait.... starting....")
             time.sleep(20)
             period=310
-            hero()
+            #hero()
+            period("Sorry too many people(>20) using hack in same time ")
+            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
         elif(bhai==nextday or bhai==nexday1):
             clear()
             banner='figlet RXCE'
@@ -214,8 +216,9 @@ else:
             print("wait.... starting....")
             time.sleep(20)
             period=400
-            hero()
-            #sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
+            #hero()
+            period("Sorry too many people(>20) using hack in same time ")
+            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
             
             
         else:
