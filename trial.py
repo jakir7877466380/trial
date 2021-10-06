@@ -166,8 +166,6 @@ else:
         else:
             _ = system('clear')
     code="INCJINDABAD"
-    nextday="ANKUSH"
-    nexday1="VIKRAM"
     banner='figlet RXCE'
     system(banner)
     print("*---------*----------*-------------*----------*")
