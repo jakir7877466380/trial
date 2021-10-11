@@ -165,7 +165,7 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="FREEKAMAAL982"
+    code="FREEDGSED"
     banner='figlet RXCE'
     system(banner)
     print("*---------*----------*-------------*----------*")
