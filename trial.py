@@ -22,7 +22,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the bcone server for next colour--------- ' + c)
+                sys.stdout.write('\rhacking in the parity server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -80,7 +80,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram @smsn_knt")
-        print("Enter ",newperiod," Bcone Price :")
+        print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
         chalo()
@@ -193,7 +193,7 @@ else:
             clear()
             print("----------Your play time-----------")
             print("13th Oct 2021, 02:30 PM- 03:00 PM")
-            print("13th Oct 2021, 05:30 PM- 06:00 PM")
+            print("13th Oct 2021, 05:00 PM- 05:30 PM")
             print("13th Oct 2021, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
