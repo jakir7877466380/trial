@@ -22,7 +22,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the bcone server for next colour--------- ' + c)
+                sys.stdout.write('\rhacking in the emerd server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -80,7 +80,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram @smsn_knt")
-        print("Enter ",newperiod," Bcone Price :")
+        print("Enter ",newperiod," Emerd Price :")
         current=input()
         current=int(current)
         chalo()
@@ -199,7 +199,7 @@ else:
             print("If you think it is an error contact")
             print("wait.... starting....")
             time.sleep(20)
-            period=340
+            period=410
             hero()
             #period("Sorry too many people(>20) using hack in same time ")
             #sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
