@@ -22,7 +22,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the bcone server for next colour--------- ' + c)
+                sys.stdout.write('\rhacking in the sapre server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -80,7 +80,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram @smsn_knt")
-        print("Enter ",newperiod," Bcone Price :")
+        print("Enter ",newperiod," Sapre Price :")
         current=input()
         current=int(current)
         chalo()
@@ -93,15 +93,15 @@ def hero():
         if(newperiod%2==0):
             sum=getSum(current)
             if(sum%2==0):
-                print(newperiod+1," : 🔴, RED")
+                print(newperiod+1," :  🟢, GREEN")
             else:
-                print(newperiod+1,"  : 🟢, GREEN")
+                print(newperiod+1,"  : 🔴, RED")
         else:
             sum=getSum(current)
             if(sum%2==0):
-                print(newperiod+1,"   : 🔴, RED")
+                print(newperiod+1,"   :🟢, GREEN")
             else:
-                print(newperiod+1,"   : 🟢, GREEN")
+                print(newperiod+1,"   : 🔴, RED")
         newperiod+=1
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")
@@ -165,7 +165,7 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="SUNDAYISFUNDAY"
+    code="HRX2021"
     banner='figlet RXCE'
     system(banner)
     print("*---------*----------*-------------*----------*")
@@ -192,14 +192,14 @@ else:
         if(bhai==code):
             clear()
             print("----------Your play time-----------")
-            print("15th Oct 2021, 02:30 PM- 03:00 PM")
-            print("15th Oct 2021, 05:00 PM- 05:30 PM")
-            print("15th Oct 2021, 08:30 PM- 09:00 PM")
+            print("18th Oct 2021, 02:30 PM- 03:00 PM")
+            print("18th Oct 2021, 05:00 PM- 05:30 PM")
+            print("18th Oct 2021, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
             print("wait.... starting....")
             time.sleep(20)
-            period=350
+            period=290
             hero()
             #period("Sorry too many people(>20) using hack in same time ")
             #sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
