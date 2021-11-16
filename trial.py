@@ -166,6 +166,7 @@ else:
         else:
             _ = system('clear')
     code="MRX20211"
+    test="TESTDAY"
     #nextday="NITESH9013"
     banner='figlet RXCE'
     system(banner)
@@ -190,7 +191,7 @@ else:
         print("Please Enter your 12 Digit \n UPI reference number ")
         print("or please Enter Correct activation code for 8:30 PM ")
         bhai=input(": ")
-        if(bhai==code):
+        if(bhai==code or bhai==test):
             clear()
             print("----------Your play time-----------")
             print("16th Nov 2021, 02:30 PM- 03:00 PM")
