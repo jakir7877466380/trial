@@ -22,7 +22,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the emerd server for next colour--------- ' + c)
+                sys.stdout.write('\rhacking in the parity server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -80,7 +80,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram @smsn_knt")
-        print("Enter ",newperiod," Emerd Price :")
+        print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
         chalo()
@@ -194,14 +194,14 @@ else:
         if(bhai==code or bhai==test):
             clear()
             print("----------Your play time-----------")
-            print("17th Nov 2021, 02:30 PM- 03:00 PM")
-            print("17th Nov 2021, 05:00 PM- 05:30 PM")
-            print("17th Nov 2021, 08:30 PM- 09:00 PM")
+            print("19th Nov 2021, 02:30 PM- 03:00 PM")
+            print("19th Nov 2021, 05:00 PM- 05:30 PM")
+            print("19th Nov 2021, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
             print("wait.... starting....")
             time.sleep(20)
-            period=410
+            period=290
             hero()
             #period("Sorry too many people(>20) using hack in same time ")
             #sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
