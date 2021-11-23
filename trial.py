@@ -201,10 +201,13 @@ else:
             print("If you think it is an error contact")
             print("wait.... starting....")
             time.sleep(20)
-            period=290
-            hero()
-            #period("Sorry too many people(>20) using hack in same time ")
-            #sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
+            #period=290
+            #hero()
+            print("Sorry too many people(>20) using hack in same time ")
+            print(" Please don't share hack with many users")
+            print(" Thank You!!")
+            print("Now Exiting.....")
+            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
         elif(bhai==nextday or bhai==nexday1):
             clear()
             banner='figlet RXCE'
