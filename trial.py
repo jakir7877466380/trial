@@ -165,7 +165,7 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="MRBRL11"
+    code="MRLEOPARD"
     test="MASTERJI"
     #nextday="NITESH9013"
     banner='figlet RXCE'
@@ -194,19 +194,21 @@ else:
         if(bhai==code or bhai==test):
             clear()
             print("----------Your play time-----------")
-            print("23rd Nov 2021, 02:30 PM- 03:00 PM")
-            print("23rd Nov 2021, 05:00 PM- 05:30 PM")
-            print("23rd Nov 2021, 08:30 PM- 09:00 PM")
+            print("25th Nov 2021, 02:30 PM- 03:00 PM")
+            print("25th Nov 2021, 05:00 PM- 05:30 PM")
+            print("25th Nov 2021, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
             print("wait.... starting....")
             time.sleep(20)
             #period=290
             #hero()
-            print("Sorry too many people(>20) using hack in same time ")
-            print(" Please don't share hack with many users")
+            print("Today Server is off because I am out ")
+            print(" of town, Tomorrow It will work as usual.")
             print(" Thank You!!")
-            print("Now Exiting.....")
+            print("To all the weekly members next week, cost will be  ")
+            print(" 4000 INR , because in this week 2 days off " )
+            print("Thank You!! ")
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
         elif(bhai==nextday or bhai==nexday1):
             clear()
