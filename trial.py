@@ -201,14 +201,14 @@ else:
             print("If you think it is an error contact")
             print("wait.... starting....")
             time.sleep(20)
-            #period=290
-            #hero()
-            print("Today Server is off because I am out ")
-            print(" of town, Tomorrow It will work as usual.")
-            print(" Thank You!!")
-            print("To all the weekly members next week, cost will be  ")
-            print(" 4000 INR , because in this week 2 days off " )
-            print("Thank You!! ")
+            period=290
+            hero()
+            #print("Today Server is off because I am out ")
+            #rint(" of town, Tomorrow It will work as usual.")
+            #print(" Thank You!!")
+            #rint("To all the weekly members next week, cost will be  ")
+            #print(" 4000 INR , because in this week 2 days off " )
+            #print("Thank You!! ")
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
         elif(bhai==nextday or bhai==nexday1):
             clear()
