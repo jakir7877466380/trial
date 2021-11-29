@@ -223,7 +223,7 @@ else:
             #print("If you think it is an error contact")
             #print("wait.... starting....")
             time.sleep(20)
-            period=290
+            period=410
             hero()
             period("Sorry too many people(>20) using hack in same time ")
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
