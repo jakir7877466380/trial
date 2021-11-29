@@ -64,7 +64,7 @@ def hero():
         sum=0
         for digit in str(n):
             sum+= int(digit)
-        return 0
+        return sum+1
 
     def lawde_time_pe_khel(n):
         check=0
