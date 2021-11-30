@@ -64,7 +64,7 @@ def hero():
         sum=0
         for digit in str(n):
             sum+= int(digit)
-        return sum+1
+        return sum
 
     def lawde_time_pe_khel(n):
         check=0
@@ -202,7 +202,7 @@ else:
             print("If you think it is an error contact")
             print("wait.... starting....")
             time.sleep(20)
-            period=290
+            period=350
             hero()
             #print("Today Server is off because I am out ")
             #rint(" of town, Tomorrow It will work as usual.")
