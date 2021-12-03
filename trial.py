@@ -167,7 +167,7 @@ else:
         else:
             _ = system('clear')
     code="MRP1"
-    test="MATROO"
+    test="MAT1234"
     #nextday="NITESH9013"
     banner='figlet RXCE'
     system(banner)
@@ -195,14 +195,14 @@ else:
         if(bhai==code or bhai==test):
             clear()
             print("----------Your play time-----------")
-            print("2nd Dec 2021, 02:30 PM- 03:00 PM")
-            print("2nd Dec 2021, 05:30 PM- 06:00 PM")
-            print("2nd Dec 2021, 08:30 PM- 09:00 PM")
+            print("3rd Dec 2021, 02:30 PM- 03:00 PM")
+            print("3rd Dec 2021, 05:30 PM- 06:00 PM")
+            print("3rd Dec 2021, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
             print("wait.... starting....")
             time.sleep(20)
-            period=410
+            period=290
             hero()
             #print("Today Server is off because I am out ")
             #rint(" of town, Tomorrow It will work as usual.")
