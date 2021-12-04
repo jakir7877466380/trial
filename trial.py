@@ -167,7 +167,7 @@ else:
         else:
             _ = system('clear')
     code="HRX999"
-    test="chummachumma4"
+    test="TEST1SESSION"
     #nextday="NITESH9013"
     banner='figlet RXCE'
     system(banner)
