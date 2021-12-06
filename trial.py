@@ -211,7 +211,7 @@ else:
             #print(" 4000 INR , because in this week 2 days off " )
             #print("Thank You!! ")
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
-        elif(bhai==nextday or bhai==nexday1):
+        elif(bhai==nextday):
             clear()
             banner='figlet RXCE'
             system(banner)
