@@ -168,7 +168,7 @@ else:
             _ = system('clear')
     code="BRA061221"
     test="TEST1SION"
-    #nextday="NITESH9013"
+    nextday="NITESH9013"
     banner='figlet RXCE'
     system(banner)
     print("*---------*----------*-------------*----------*")
