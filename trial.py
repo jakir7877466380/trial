@@ -166,9 +166,9 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="BRA061221"
-    test="TEST1SION"
-    nextday="NITESH9013"
+    code="BRAT321"
+    test="TESTN"
+    nextday="NIT9013"
     banner='figlet RXCE'
     system(banner)
     print("*---------*----------*-------------*----------*")
@@ -216,16 +216,16 @@ else:
             banner='figlet RXCE'
             system(banner)
             print("----------Your play time-----------")
-            #print("8th-14th Nov 2021, 02:30 PM- 03:00 PM")
-            #print("8th-14th Nov 2021, 06:00 PM- 06:30 PM")
-            #print("8th-14th Nov 2021, 08:30 PM- 09:00 PM")
+            #print("8th-14th Dec 2021, 02:30 PM- 03:00 PM")
+            #print("8th-14th Dec 2021, 06:00 PM- 06:30 PM")
+            #print("8th-14th Dec 2021, 08:30 PM- 09:00 PM")
             #print("Please play on the given time, and ")
             #print("If you think it is an error contact")
             #print("wait.... starting....")
             time.sleep(20)
-            period=410
+            period=290
             hero()
-            period("Sorry too many people(>20) using hack in same time ")
+            #period("Sorry too many people(>20) using hack in same time ")
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
             
             
