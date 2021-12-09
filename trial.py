@@ -168,6 +168,7 @@ else:
             _ = system('clear')
     code="BRAT321"
     test="TESTN"
+    night="SARTHAK08PM"
     nextday="NIT9013"
     banner='figlet RXCE'
     system(banner)
@@ -227,8 +228,18 @@ else:
             hero()
             #period("Sorry too many people(>20) using hack in same time ")
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
-            
-            
+        elif(bhai==night):
+            print("----------Your play time-----------")
+            print("9th Dec 2021,  08:30 PM- 09:00 PM")
+            print("10th Dec 2021, 08:30 PM- 09:00 PM")
+            print("11th Dec 2021, 08:30 PM- 09:00 PM")
+            print("Please play on the given time, and ")
+            print("If you think it is an error contact")
+            print("wait.... starting....")
+            time.sleep(20)
+            period=410
+            hero()
+            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
         else:
             clear()
             banner='figlet RXCE'
