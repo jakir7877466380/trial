@@ -229,6 +229,7 @@ else:
             #period("Sorry too many people(>20) using hack in same time ")
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
         elif(bhai==night):
+            clear()
             print("----------Your play time-----------")
             print("9th Dec 2021,  08:30 PM- 09:00 PM")
             print("10th Dec 2021, 08:30 PM- 09:00 PM")
