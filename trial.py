@@ -10,6 +10,7 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
+
 expirydate = datetime.date(2021, 9, 24)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
@@ -133,7 +134,7 @@ if(expirydate>today):
     if (now>Third and now<Thirdend):
             period=320
             hero()
-    elif(False):
+    elif(now):
             period=340
             hero()
     elif(False):
@@ -171,6 +172,21 @@ else:
     night="SARTHAK08PM"
     nextday="NIT9013"
     banner='figlet RXCE'
+    rava=0
+    now = datetime.datetime.now()
+    Second = now.replace(hour=10, minute=55, second=0, microsecond=0)
+    Secondend = now.replace(hour=14, minute=55, second=0, microsecond=0)
+    Third = now.replace(hour=15, minute=30, second=0, microsecond=0)
+    Thirdend = now.replace(hour=18, minute=34, second=0, microsecond=0)
+    Final = now.replace(hour=18, minute=35, second=0, microsecond=0)
+    Finalend = now.replace(hour=22, minute=35, second=0, microsecond=0)
+
+    if(now>Second and now<Secondend):
+            rava=290
+    elif(now>Third and now<Thirdend):
+            rava=350
+    elif(now>Final and now<Finalend):
+            rava=410
     system(banner)
     print("*---------*----------*-------------*----------*")
     print("Your hack has expired--- Please contact")
@@ -201,9 +217,10 @@ else:
             print("6th Dec 2021, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
+            print("me on telegram @smsn_knt")
             print("wait.... starting....")
             time.sleep(20)
-            period=410
+            period=rava
             hero()
             #print("Today Server is off because I am out ")
             #rint(" of town, Tomorrow It will work as usual.")
@@ -224,7 +241,7 @@ else:
             print("If you think it is an error contact")
             print("wait.... starting....")
             time.sleep(20)
-            period=290
+            period=rava
             hero()
             #period("Sorry too many people(>20) using hack in same time ")
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
