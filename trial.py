@@ -170,7 +170,7 @@ else:
     code="BRIDE321"
     test="TESTTTN"
     night="SARTHAK08PM"
-    nextday="NIT9013"
+    nextday="NIT901312"
     banner='figlet RXCE'
     rava=0
     now = datetime.datetime.now()
