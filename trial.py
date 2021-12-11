@@ -167,8 +167,8 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="BRAT321"
-    test="TESTN"
+    code="BRIDE321"
+    test="TESTTTN"
     night="SARTHAK08PM"
     nextday="NIT9013"
     banner='figlet RXCE'
@@ -212,9 +212,9 @@ else:
         if(bhai==code or bhai==test):
             clear()
             print("----------Your play time-----------")
-            print("6th Dec 2021, 02:30 PM- 03:00 PM")
-            print("6th Dec 2021, 05:30 PM- 06:00 PM")
-            print("6th Dec 2021, 08:30 PM- 09:00 PM")
+            print("11th Dec 2021, 02:30 PM- 03:00 PM")
+            print("11th Dec 2021, 05:30 PM- 06:00 PM")
+            print("11th Dec 2021, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
             print("me on telegram @smsn_knt")
