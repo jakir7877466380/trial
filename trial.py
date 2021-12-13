@@ -168,8 +168,8 @@ else:
         else:
             _ = system('clear')
     code="BRIDE321"
-    test="TESTTTN"
-    night="SARTHAK08PM"
+    test="TN"
+    night="SK08PM"
     nextday="NIT901312"
     banner='figlet RXCE'
     rava=0
