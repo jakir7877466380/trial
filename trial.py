@@ -168,7 +168,7 @@ else:
         else:
             _ = system('clear')
     code="EXAMPLEOYED"
-    test="RVT098"
+    test="XYZ08"
     night="NIGHTJEE"
     nextday="NIT901312"
     banner='figlet RXCE'
