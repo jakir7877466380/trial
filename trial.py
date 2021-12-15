@@ -167,10 +167,10 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="EXAMPLEOYED"
-    test="XYZ08"
-    night="NIGHTJEE"
-    nextday="NIT901312"
+    code="EXYED"
+    test="08"
+    night="NIGH"
+    nextday="NIT2"
     banner='figlet RXCE'
     rava=0
     now = datetime.datetime.now()
