@@ -167,10 +167,10 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="EYEDPOP15"
-    test="08"
-    night="NIGH"
-    nextday="NIT2"
+    code="EYED15"
+    test="089CH"
+    night="NIGHTY0913"
+    nextday="NIT234"
     banner='figlet RXCE'
     rava=0
     now = datetime.datetime.now()
@@ -212,9 +212,9 @@ else:
         if(bhai==code or bhai==test):
             clear()
             print("----------Your play time-----------")
-            print("17th Dec 2021, 02:30 PM- 03:00 PM")
-            print("17th Dec 2021, 05:30 PM- 06:00 PM")
-            print("17th Dec 2021, 08:30 PM- 09:00 PM")
+            print("19th Dec 2021, 02:30 PM- 03:00 PM")
+            print("19th Dec 2021, 05:30 PM- 06:00 PM")
+            print("19th Dec 2021, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
             print("me on telegram @smsn_knt")
