@@ -167,9 +167,9 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="RAGHOJI13"
-    test="08VRDCH"
-    night="NIY0913"
+    code="RA13"
+    test="0BNMRTCH"
+    night="NIY13"
     nextday="NICDFG134"
     banner='figlet RXCE'
     rava=0
