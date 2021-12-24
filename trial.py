@@ -196,7 +196,7 @@ else:
     print(" 2.  5000 INR -------  3 Days(90 Games")
     print(" 2.  10000 INR ------- 7 Days(210 Games")
     print("*---------*----------*-------------*----------*")
-    print("Your custom hack can be made request from us.")
+    print("If you need any discount contact me")
     print("Beware of fraudsters!!!")
     while(True):
         print("My banking name is SUNNY KUMAR")
