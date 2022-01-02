@@ -222,8 +222,8 @@ else:
             print("wait.... starting....")
             time.sleep(20)
             period=rava
-            hero()
-            #print("Today Server is off because I am out ")
+            #hero()
+            print("Today Server is off RXCE try tomorrow ")
             #rint(" of town, Tomorrow It will work as usual.")
             #print(" Thank You!!")
             #rint("To all the weekly members next week, cost will be  ")
