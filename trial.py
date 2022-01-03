@@ -167,7 +167,7 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="BBRT23"
+    code="BBPOP3"
     test="PRETH978"
     night="NIYBUY13"
     nextday="NNMGHJRFD"
@@ -213,17 +213,17 @@ else:
         if(bhai==code or bhai==test):
             clear()
             print("----------Your play time-----------")
-            print("29th Dec 2021, 02:30 PM- 03:00 PM")
-            print("29th Dec 2021, 05:30 PM- 06:00 PM")
-            print("29th Dec 2021, 08:30 PM- 09:00 PM")
+            print("03rd Jan 2021, 02:30 PM- 03:00 PM")
+            print("03rd Jan 2021, 05:30 PM- 06:00 PM")
+            print("03rd Jan 021, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
             print("me on telegram @smsn_knt")
             print("wait.... starting....")
             time.sleep(20)
             period=rava
-            #hero()
-            print("Today Server is off RXCE try tomorrow ")
+            hero()
+            #print("Today Server is off RXCE try tomorrow ")
             #rint(" of town, Tomorrow It will work as usual.")
             #print(" Thank You!!")
             #rint("To all the weekly members next week, cost will be  ")
