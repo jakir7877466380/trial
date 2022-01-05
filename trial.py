@@ -171,7 +171,7 @@ else:
     test="PRETH978"
     night="NIYBUY13"
     nextday="NNMGHJRFD"
-    banner='figlet RXCE'
+    banner='figlet RXCE_V5'
     rava=0
     now = datetime.datetime.now()
     Second = now.replace(hour=10, minute=55, second=0, microsecond=0)
@@ -213,9 +213,9 @@ else:
         if(bhai==code or bhai==test):
             clear()
             print("----------Your play time-----------")
-            print("03rd Jan 2021, 02:30 PM- 03:00 PM")
-            print("03rd Jan 2021, 05:30 PM- 06:00 PM")
-            print("03rd Jan 021, 08:30 PM- 09:00 PM")
+            print("05th Jan 2021, 02:30 PM- 03:00 PM")
+            print("05th Jan 2021, 05:30 PM- 06:00 PM")
+            print("05th Jan 021, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
             print("me on telegram @smsn_knt")
@@ -232,7 +232,7 @@ else:
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
         elif(bhai==nextday):
             clear()
-            banner='figlet RXCE'
+            banner='figlet RXCE_V5'
             system(banner)
             print("----------Your play time-----------")
             print("8th-14th Dec 2021, 02:30 PM- 03:00 PM")
