@@ -76,7 +76,7 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet RXCE'
+    banner='figlet RXCEV2.0|lolcat'
     numbers=[]
     while(y):
         clear()
