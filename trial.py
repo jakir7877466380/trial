@@ -171,7 +171,7 @@ else:
     test="PREMRPA23"
     night="NICFGY13"
     nextday="NNMKJHFD"
-    banner='figlet RXCE|lolcat'
+    banner='figlet RXCEV2.0|lolcat'
     rava=0
     now = datetime.datetime.now()
     Second = now.replace(hour=10, minute=55, second=0, microsecond=0)
@@ -232,7 +232,7 @@ else:
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
         elif(bhai==nextday):
             clear()
-            banner='figlet RXCE|lolcat'
+            banner='figlet RXCEV2.0|lolcat'
             system(banner)
             print("----------Your play time-----------")
             print("8th-14th Dec 2021, 02:30 PM- 03:00 PM")
@@ -261,7 +261,7 @@ else:
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
         else:
             clear()
-            banner='figlet RXCE|lolcat'
+            banner='figlet RXCEV2.0|lolcat'
             system(banner)
             print("Incorrect Activation Code :")
      
