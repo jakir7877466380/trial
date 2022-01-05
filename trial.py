@@ -167,11 +167,11 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="BBPOP3"
-    test="PRETH978"
-    night="NIYBUY13"
-    nextday="NNMGHJRFD"
-    banner='figlet RXCE_V5|lolcat'
+    code="BBRUPA23"
+    test="PREMRPA23"
+    night="NICFGY13"
+    nextday="NNMKJHFD"
+    banner='figlet RXCE|lolcat'
     rava=0
     now = datetime.datetime.now()
     Second = now.replace(hour=10, minute=55, second=0, microsecond=0)
@@ -232,7 +232,7 @@ else:
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
         elif(bhai==nextday):
             clear()
-            banner='figlet RXCE_V5|lolcat'
+            banner='figlet RXCE|lolcat'
             system(banner)
             print("----------Your play time-----------")
             print("8th-14th Dec 2021, 02:30 PM- 03:00 PM")
@@ -261,7 +261,7 @@ else:
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
         else:
             clear()
-            banner='figlet RXCEV2|lolcat'
+            banner='figlet RXCE|lolcat'
             system(banner)
             print("Incorrect Activation Code :")
      
