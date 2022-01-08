@@ -227,8 +227,7 @@ else:
         print("UPI1 : mdurth@ybl")
         print("UPI2 : sunnyk16@fbl")
         print("If you have already paid to above UPI")
-        print("Please Enter your 12 Digit \n UPI reference number ")
-        print("or please Enter Correct activation code for 8:30 PM ")
+        print(f"{neon}Enter Your Activation Code Or Upi Reference for Opening Hack")
         bhai=input(": ")
         if(bhai==code or bhai==test):
             clear()
