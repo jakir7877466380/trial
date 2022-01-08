@@ -14,6 +14,13 @@ from datetime import date
 expirydate = datetime.date(2021, 9, 24)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
+green="\033[3;32m"
+neon="\033[3;36m"
+nc="\033[00m"
+red="\033[3;31m"
+purple="\033[3;34m"
+yellow="\033[3;33m"
+voilet="\033[3;35m"
 def hero():
 
     def chalo():
@@ -66,23 +73,16 @@ def hero():
         for digit in str(n):
             sum+= int(digit)
         return sum+1
-
-    def lawde_time_pe_khel(n):
-        check=0
-        for digit in (n):
-            if(int(digit)==0):
-                check=check+1
-        return check
     clear()
     y=1
     newperiod=period
-    banner='figlet RXCEV2.0|lolcat'
+    banner='figlet RXCEV2.1|lolcat'
     numbers=[]
     while(y):
         clear()
         system(banner)
-        print("Contact me on telegram @smsn_knt")
-        print("Enter ",newperiod," Parity Price :")
+        print(f"{red}Contact me on telegram @smsn_knt")
+        print(f"{yellow}"Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
         chalo()
@@ -91,7 +91,7 @@ def hero():
         print("\n---------Successfully got the colour -------------")
         print('\n')
         last2=str(current)[-2:]
-        samjha_maadarchod=lawde_time_pe_khel(last2)
+        #samjha_maadarchod=lawde_time_pe_khel(last2)
         if(newperiod%2==0):
             sum=getSum(current)
             if(sum%2==0):
@@ -144,9 +144,9 @@ if(expirydate>today):
             period=360
             hero()
     else:
-        banner='figlet RXCE'
+        banner='figlet RXCEV2.1'
         system(banner)
-        #print("Hi!! Thanks for buying the hack")
+        #print(f"{red}"Hi!! Thanks for buying the hack")
         print("Hi! thanks for trying our DEMO")
         print("----------Your play time-----------")
         #print("31st Aug 2021, 11:00 AM- 11:30 AM")
@@ -167,11 +167,11 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="BFLKJ23"
-    test="PBBNJK33"
+    code="BVGHN23"
+    test="PNDHGJK33"
     night="NICMJY13"
     nextday="NNMKJHFD"
-    banner='figlet RXCEV2.0|lolcat'
+    banner='figlet RXCEV2.1|lolcat'
     rava=0
     now = datetime.datetime.now()
     Second = now.replace(hour=10, minute=55, second=0, microsecond=0)
@@ -188,7 +188,7 @@ else:
     elif(now>Final and now<Finalend):
             rava=410
     system(banner)
-    print("*---------*----------*-------------*----------*")
+    print(f"{neon}*--------*--------*-------*---------*---------*")
     print("Your hack has expired--- Please contact")
     print(" on telegram ----@smsn_knt for activating")
     print("     Plan Amount --    Total limit " )
@@ -200,9 +200,29 @@ else:
     print("Beware of fraudsters!!!")
     while(True):
         print("My banking name is SUNNY KUMAR")
-        print("If you send to any other name , then IT IS SCAMMM")
-        print("--------*--------*----------*---------")
-        print("send payment only to SUNNY KUMAR ")
+        print(f"{purple}Then I'm Damn Sure That")
+        print(f" IT IS A {red}SCAMMM")
+        print(f"{purple}Don't Believe Any One Who Says ")
+        print(f"I Have {yellow}Hack {purple}And Sends You Only ")
+        print(f"{green}Fake {purple}ScreenShots Or Edited Ones")
+        print(f"{red}After You Pay to The UPI ID above You Can Automatically")
+        print(f"Activate Hack By Entering The Correct ")
+        print(f"{green}(UTR) Or Upi Reference Number") 
+        print(f"{neon}To Activate The Hack")
+        print(f"If It Does'nt Open Contact Me On Telegram {yellow}@smsn_knt")
+        print(f"{neon}*---------*----------*-------------*----------*")
+        print(f"{green}This Update Contains")
+        print(f"{neon}Automatic Recharge Updated")
+        print(f"{purple}Colourful And User Friendly InterFace Updates")
+        print(f"{green}And Much More..., Play And EnJoy Earning")
+        print(f"{red}And A Warning Play The Amount Specified By Hack")
+        print("If You Play More And Loss We Are Not Responsible")
+        print(f"{neon}*---------*----------*-------------*----------*")
+        print(f"{green}Things Under Maintenence")
+        print(f"{yellow}Colour Combination And Emoji syncing")
+        print(f"{green}Please Ignore Play Timings They Are Under Maintenence")
+        print(f"{yellow}All These Will Be Updated In Upcomming Updates")
+        print(f"{red}*---------*----------*-------------*----------*")
         print("payhere--- UPI : ")
         print("UPI1 : mdurth@ybl")
         print("UPI2 : sunnyk16@fbl")
@@ -212,13 +232,13 @@ else:
         bhai=input(": ")
         if(bhai==code or bhai==test):
             clear()
-            print("----------Your play time-----------")
+            print(f"{purple}---------------Your play time----------------")
             print("07th Jan 2021, 02:30 PM- 03:00 PM")
             print("07th Jan 2021, 05:30 PM- 06:00 PM")
             print("07th Jan 2021, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
-            print("If you think it is an error contact")
-            print("me on telegram @smsn_knt")
+            print(f"If you think it is an {red}error {yellow}contact {green}me ")
+            print(f"{neon}On Telegram {red}@smsn_knt")
             print("wait.... starting....")
             time.sleep(20)
             period=rava
@@ -232,7 +252,7 @@ else:
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
         elif(bhai==nextday):
             clear()
-            banner='figlet RXCEV2.0|lolcat'
+            banner='figlet RXCEV2.1|lolcat'
             system(banner)
             print("----------Your play time-----------")
             print("8th-14th Dec 2021, 02:30 PM- 03:00 PM")
@@ -261,7 +281,7 @@ else:
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
         else:
             clear()
-            banner='figlet RXCEV2.0|lolcat'
+            banner='figlet RXCEV2.1|lolcat'
             system(banner)
             print("Incorrect Activation Code :")
      
