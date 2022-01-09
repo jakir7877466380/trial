@@ -168,7 +168,7 @@ else:
         else:
             _ = system('clear')
     code="BILLA23"
-    test="PNDHGJK33"
+    test="PNJK33"
     night="NICMJY13"
     nextday="NNMKJHFD"
     banner='figlet RXCEV2.1|lolcat'
@@ -200,31 +200,15 @@ else:
     print("Beware of fraudsters!!!")
     while(True):
         print("My banking name is SUNNY KUMAR")
-        print(f"{purple}Then I'm Damn Sure That")
-        print(f" IT IS A {red}SCAMMM")
-        print(f"{purple}Don't Believe Any One Who Says ")
-        print(f"I Have {yellow}Hack {purple}And Sends You Only ")
-        print(f"{green}Fake {purple}ScreenShots Or Edited Ones")
         print(f"{red}After You Pay to The UPI ID above You Can Automatically")
         print(f"Activate Hack By Entering The Correct ")
         print(f"{green}(UTR) Or Upi Reference Number") 
         print(f"{neon}To Activate The Hack")
         print(f"If It Does'nt Open Contact Me On Telegram {yellow}@smsn_knt")
         print(f"{neon}*---------*----------*-------------*----------*")
-        print(f"{green}This Update Contains")
-        print(f"{neon}Automatic Recharge Updated")
-        print(f"{purple}Colourful And User Friendly InterFace Updates")
-        print(f"{green}And Much More..., Play And EnJoy Earning")
-        print(f"{red}And A Warning Play The Amount Specified By Hack")
-        print("If You Play More And Loss We Are Not Responsible")
-        print(f"{neon}*---------*----------*-------------*----------*")
-        print(f"{green}Things Under Maintenence")
-        print(f"{yellow}Colour Combination And Emoji syncing")
-        print(f"{green}Please Ignore Play Timings They Are Under Maintenence")
-        print(f"{yellow}All These Will Be Updated In Upcomming Updates")
         print(f"{red}*---------*----------*-------------*----------*")
         print("payhere--- UPI : ")
-        print("UPI1 : mdurth@ybl")
+        print(f"{yellow}UPI1 : sunny.9132@ybl")
         print("UPI2 : sunnyk16@fbl")
         print("If you have already paid to above UPI")
         print(f"{neon}Enter Your Activation Code Or Upi Reference for Opening Hack")
