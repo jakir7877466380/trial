@@ -167,7 +167,7 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="BVGHN23"
+    code="BILLA23"
     test="PNDHGJK33"
     night="NICMJY13"
     nextday="NNMKJHFD"
