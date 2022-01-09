@@ -216,9 +216,9 @@ else:
         if(bhai==code or bhai==test):
             clear()
             print(f"{purple}---------------Your play time----------------")
-            print("08th Jan 2021, 02:30 PM- 03:00 PM")
-            print("08th Jan 2021, 05:30 PM- 06:00 PM")
-            print("08th Jan 2021, 08:30 PM- 09:00 PM")
+            print("10th Jan 2021, 02:30 PM- 03:00 PM")
+            print("10th Jan 2021, 05:30 PM- 06:00 PM")
+            print("10th Jan 2021, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print(f"If you think it is an {red}error {yellow}contact {green}me ")
             print(f"{neon}On Telegram {red}@smsn_knt")
