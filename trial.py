@@ -168,7 +168,7 @@ else:
         else:
             _ = system('clear')
     code="BAERTY23"
-    test="PNJK33"
+    test="PNHBG32"
     night="NICMJY13"
     nextday="NNMKJHFD"
     banner='figlet RXCEV2.1|lolcat'
