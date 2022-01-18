@@ -168,6 +168,8 @@ else:
         else:
             _ = system('clear')
     code="BHFGV985"
+    code1="NJHBWE23"
+    code2="MNBGHV34"
     test="BHGFV43"
     night="NICMJY13"
     nextday="NNMKJHFD"
@@ -213,7 +215,7 @@ else:
         print("If you have already paid to above UPI")
         print(f"{neon}Enter Your Activation Code Or Upi Reference for Opening Hack")
         bhai=input(": ")
-        if(bhai==code or bhai==test):
+        if(bhai==code or bhai==test or bhai==code1 or bhai==code2):
             clear()
             print("You have bought hack for 1 day")
             print(f"{purple}---------------Your play time----------------")
