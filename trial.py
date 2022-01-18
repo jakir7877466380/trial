@@ -167,8 +167,8 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="BART983"
-    test="PBHGY32"
+    code="BHFGV985"
+    test="BHGFV43"
     night="NICMJY13"
     nextday="NNMKJHFD"
     banner='figlet RXCEV2.1|lolcat'
@@ -215,6 +215,7 @@ else:
         bhai=input(": ")
         if(bhai==code or bhai==test):
             clear()
+            print("You have bought hack for 1 day")
             print(f"{purple}---------------Your play time----------------")
             print("13th Jan 2021, 02:30 PM- 03:00 PM")
             print("13th Jan 2021, 05:30 PM- 06:00 PM")
