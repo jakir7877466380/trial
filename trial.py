@@ -169,7 +169,7 @@ else:
             _ = system('clear')
     code="BHFGV985"
     code1="NJHBWE23"
-    code2="MNBGHV34"
+    code2="MKAAHDBD4"
     test="BHGFV43"
     night="NICMJY13"
     nextday="NNMKJHFD"
@@ -219,9 +219,9 @@ else:
             clear()
             print("You have bought hack for 1 day")
             print(f"{purple}---------------Your play time----------------")
-            print("13th Jan 2021, 02:30 PM- 03:00 PM")
-            print("13th Jan 2021, 05:30 PM- 06:00 PM")
-            print("13th Jan 2021, 08:30 PM- 09:00 PM")
+            print("19th Jan 2021, 02:30 PM- 03:00 PM")
+            print("19th Jan 2021, 05:30 PM- 06:00 PM")
+            print("19th Jan 2021, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print(f"If you think it is an {red}error {yellow}contact {green}me ")
             print(f"{neon}On Telegram {red}@smsn_knt")
