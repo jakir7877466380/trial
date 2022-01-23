@@ -1,4 +1,4 @@
-apt update
+apt update -Y
 pkg install git -Y
 pkg install python -Y 
 pkg install figlet -Y
