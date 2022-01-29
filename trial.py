@@ -241,9 +241,9 @@ else:
             banner='figlet RXCEV2.1|lolcat'
             system(banner)
             print("----------Your play time-----------")
-            print("8th-14th Dec 2021, 02:30 PM- 03:00 PM")
-            print("8th-14th Dec 2021, 06:00 PM- 06:30 PM")
-            print("8th-14th Dec 2021, 08:30 PM- 09:00 PM")
+            print("30th-1st feb 2021, 02:30 PM- 03:00 PM")
+            print("30th-1st feb 2021, 06:00 PM- 06:30 PM")
+            print("30th-1st feb 2021, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
             print("wait.... starting....")
