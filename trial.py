@@ -169,7 +169,7 @@ else:
             _ = system('clear')
     code="NSDRT5"
     code1="NVHIDG23"
-    code2="MVGDYCBD4"
+    code2="MVSDRCV4"
     test="BHGFV43"
     night="NICMJY13"
     nextday="NNMKJHFD"
