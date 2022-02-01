@@ -167,10 +167,10 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="NSDRT5"
+    code="NDSFT5"
     code1="NVHIDG23"
-    code2="MVSDRCV4"
-    test="BHGFV43"
+    code2="AWRRDS56"
+    test="BHERT43"
     night="NICMJY13"
     nextday="NNMKJHFD"
     banner='figlet RXCEV2.1|lolcat'
