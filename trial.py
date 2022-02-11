@@ -255,14 +255,14 @@ else:
         elif(bhai==night):
             clear()
             print("----------Your play time-----------")
-            print("9th Dec 2021,  08:30 PM- 09:00 PM")
-            print("10th Dec 2021, 08:30 PM- 09:00 PM")
-            print("11th Dec 2021, 08:30 PM- 09:00 PM")
+            print("11th Feb 2022,  08:00 PM- 08:30 PM")
+            print("12th Feb 2022, 08:00 PM- 08:30 PM")
+            print("13th Feb 2022, 08:00 PM- 08:30 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
             print("wait.... starting....")
             time.sleep(20)
-            period=410
+            period=400
             hero()
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
         else:
