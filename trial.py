@@ -167,12 +167,12 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="NDCDSXFV55"
-    code1="NDERFG23"
-    code2="AWAWSDS56"
-    test="BVCFT43"
-    night="NSMNJUI13"
-    nextday="NDFFD"
+    code="MHGFV55"
+    code1="BGDF23"
+    code2="ACDFVS56"
+    test="BSDC43"
+    night="NXCFI13"
+    nextday="NDFSDFD"
     banner='figlet RXCEV2.1|lolcat'
     rava=0
     now = datetime.datetime.now()
@@ -219,9 +219,9 @@ else:
             clear()
             print("You have bought hack for 1 day")
             print(f"{purple}---------------Your play time----------------")
-            print("19th Jan 2021, 02:30 PM- 03:00 PM")
-            print("19th Jan 2021, 05:30 PM- 06:00 PM")
-            print("19th Jan 2021, 08:30 PM- 09:00 PM")
+            print("11th Feb 2022, 02:30 PM- 03:00 PM")
+            print("11th Feb 2022, 05:30 PM- 06:00 PM")
+            print("11th Feb 2022, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print(f"If you think it is an {red}error {yellow}contact {green}me ")
             print(f"{neon}On Telegram {red}@smsn_knt")
