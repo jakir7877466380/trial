@@ -168,7 +168,7 @@ else:
         else:
             _ = system('clear')
     code="MSDFX55"
-    code1="BD23"
+    code1="BERTY23"
     code2="ASXS56"
     test="SDF43"
     night="NX13"
