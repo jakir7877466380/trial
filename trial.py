@@ -76,7 +76,7 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet RXCEV2.1|lolcat'
+    banner='figlet RXCEV5.1|lolcat'
     numbers=[]
     while(y):
         clear()
@@ -173,7 +173,7 @@ else:
     test="SD3"
     night="N13"
     nextday="DSDSXS"
-    banner='figlet RXCEV2.1|lolcat'
+    banner='figlet RXCEV5.1|lolcat'
     rava=0
     now = datetime.datetime.now()
     Second = now.replace(hour=10, minute=55, second=0, microsecond=0)
@@ -238,7 +238,7 @@ else:
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
         elif(bhai==nextday):
             clear()
-            banner='figlet RXCEV2.1|lolcat'
+            banner='figlet RXCEV5.1|lolcat'
             system(banner)
             print("----------Your play time-----------")
             print("30th-1st feb 2021, 02:30 PM- 03:00 PM")
