@@ -144,7 +144,7 @@ if(expirydate>today):
             period=360
             hero()
     else:
-        banner='figlet RXCEV2.1'
+        banner='figlet RXCEV5.1'
         system(banner)
         #print(f"{red}"Hi!! Thanks for buying the hack")
         print("Hi! thanks for trying our DEMO")
@@ -267,7 +267,7 @@ else:
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
         else:
             clear()
-            banner='figlet RXCEV2.1|lolcat'
+            banner='figlet RXCEV5.1|lolcat'
             system(banner)
             print("Incorrect Activation Code :")
      
