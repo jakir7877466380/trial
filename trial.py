@@ -167,10 +167,10 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="MZXCD"
-    code1="BSDF3"
-    code2="ASA6"
-    test="SD3"
+    code="MDSDD"
+    code1="BXDFDF3"
+    code2="AFGVA6"
+    test="SDSD3"
     night="N13"
     nextday="DSDSXS"
     banner='figlet RXCEV5.1|lolcat'
@@ -219,9 +219,9 @@ else:
             clear()
             print("You have bought hack for 1 day")
             print(f"{purple}---------------Your play time----------------")
-            print("19th Feb 2022, 02:30 PM- 03:00 PM")
-            print("19th Feb 2022, 05:30 PM- 06:00 PM")
-            print("19th Feb 2022, 08:30 PM- 09:00 PM")
+            print("10th Mar 2022, 02:30 PM- 03:00 PM")
+            print("10th Mar 2022, 05:30 PM- 06:00 PM")
+            print("10th Mar 2022, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print(f"If you think it is an {red}error {yellow}contact {green}me ")
             print(f"{neon}On Telegram {red}@smsn_knt")
