@@ -167,11 +167,11 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="MDSDD"
-    code1="BXDFDF3"
-    code2="AFGVA6"
-    test="SDSD3"
-    night="N13"
+    code="MAWSDD"
+    code1="BXSXCF3"
+    code2="AFA6"
+    test="SWD3"
+    night="N3"
     nextday="DSDSXS"
     banner='figlet RXCEV5.1|lolcat'
     rava=0
@@ -210,8 +210,8 @@ else:
         print(f"{neon}*---------*----------*-------------*----------*")
         print(f"{red}*---------*----------*-------------*----------*")
         print("payhere--- UPI : ")
-        print(f"{yellow}UPI1 : sunny.9132@ybl")
-        print("UPI2 : sunnyk16@fbl")
+        #print(f"{yellow}UPI1 : sunny.9132@ybl")
+        print("UPI : sunnyk16@fbl")
         print("If you have already paid to above UPI")
         print(f"{neon}Enter Your Activation Code Or Upi Reference for Opening Hack")
         bhai=input(": ")
