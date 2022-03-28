@@ -170,7 +170,7 @@ else:
     code="MCDFSGD"
     code1="BXMKMF3"
     code2="AFA6"
-    test="SWD3"
+    test="SASCX3"
     night="NAW3"
     nextday="DXS"
     banner='figlet RXCEV5.1|lolcat'
