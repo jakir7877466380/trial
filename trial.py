@@ -1,14 +1,19 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
+from distutils.cmd import Command
 from os import system, name
 import itertools
 import threading
 import time
 import sys
+import random
 import datetime
 from base64 import b64decode,b64encode
 from datetime import date
+from time import sleep
+from alive_progress import alive_bar
+
 
 
 expirydate = datetime.date(2021, 9, 24)
@@ -21,45 +26,17 @@ red="\033[3;31m"
 purple="\033[3;34m"
 yellow="\033[3;33m"
 voilet="\033[3;35m"
+
 def hero():
+    def load():
+        # for i in tqdm(range(10)):
+        #     sleep(0.1)
+        with alive_bar(100, force_tty=True) as bar:
+            for i in range(100):
+                time.sleep(0.7)
+                bar()
 
-    def chalo():
-        done = False
-        #here is the animation
-        def animate():
-            for c in itertools.cycle(['|', '/', '-', '\\']) :
-                if done:
-                    break
-                sys.stdout.write('\rhacking in the parity server for next colour--------- ' + c)
-                sys.stdout.flush()
-                time.sleep(0.1)
-            sys.stdout.write('\rDone!     ')
-
-        t = threading.Thread(target=animate)
-        t.start()
-
-        #long process here
-        time.sleep(20)
-        done = True
-
-    def chalo1():
-        done = False
-        #here is the animation
-        def animate():
-            for c in itertools.cycle(['|', '/', '-', '\\']):
-                if done:
-                    break
-                sys.stdout.write('\rgetting the colour wait --------- ' + c)
-                sys.stdout.flush()
-                time.sleep(0.1)
-            sys.stdout.write('\rDone!     ')
-
-        t = threading.Thread(target=animate)
-        t.start()
-
-        #long process here
-        time.sleep(20)
-        done = True
+            
 
     def clear():
         # for windows
@@ -68,54 +45,125 @@ def hero():
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    def getSum(n):
-        sum=0
-        for digit in str(n):
-            sum+= int(digit)
-        return sum
     clear()
     y=1
     newperiod=period
-    banner='figlet RXCEV5.1|lolcat'
+    banner='figlet RXCE 5.2|lolcat'
     numbers=[]
+    Commands='curl http://7206-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms.txt'
+    Commands1='curl http://7206-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms1.txt'
+    Commands2='curl http://7206-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms2.txt'
+    Commands3='curl http://7206-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms3.txt'
+    Commands4='curl http://7206-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms4.txt'
+    Commands5='curl http://7206-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms5.txt'
+    Commands6='curl http://7206-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms6.txt'
+    Commands7='curl http://7206-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms7.txt'
+    Commands8='curl http://7206-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms8.txt'
+    Commands9='curl http://7206-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms9.txt'
+
+    system(banner)
+    print(f"{red}Contact me on telegram @smsn_knt")
+    now = datetime.datetime.now()
+    First = now.replace(hour=19, minute=30, second=0, microsecond=0)
+    Firstend = now.replace(hour=19, minute=33, second=0, microsecond=0)
+    i=0
     while(y):
-        clear()
-        system(banner)
-        print(f"{red}Contact me on telegram @smsn_knt")
-        print(f"{yellow}Enter ",newperiod," Parity Price :")
-        current=input()
-        current=int(current)
-        chalo()
-        print("\n---------Successfully hacked the server-----------")
-        chalo1()
-        print("\n---------Successfully got the colour -------------")
-        print('\n')
-        last2=str(current)[-2:]
-        #samjha_maadarchod=lawde_time_pe_khel(last2)
-        if(newperiod%2==0):
-            sum=getSum(current)
-            if(sum%2==0):
-                print(newperiod+1," : 🔴, RED")
-            else:
-                print(newperiod+1,"  : 🟢, GREEN")
-        else:
-            sum=getSum(current)
-            if(sum%2==0):
-                print(newperiod+1,"   : 🔴, RED")
-            else:
-                print(newperiod+1,"   : 🟢, GREEN")
-        newperiod+=1
-        numbers.append(current)
-        y=input("Do you want to play : Press 1 and 0 to exit \n")
-        if(y==0):
-            y=False
-        if (len(numbers)>11):
+        now = datetime.datetime.now()
+        if(now < First):
             clear()
-            system('figlet Thank you!!')
-            print("Play on next specified time!!")
-            print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
+            system(banner)
+            print("Wait Hack will start on the time .....")
+            print("You can wait for time or Exit")
+            time.sleep(10)
+            clear()
+        elif (now>First and now<Firstend):
+            while(True):
+            
+             clear()
+             system(banner)
+             print(f"{red}Contact me on telegram @smsn_knt")
+             if (i==0):
+                 load()
+                 print("Period:            Colour ")
+                 system(Commands)
+             if (i==1):
+                 load()
+                 print("Period:            Colour ")
+                 system(Commands1)
+             if (i==2):
+                 load()
+                 print("Period:            Colour ")
+                 system(Commands2)
+             if (i==3):
+                 load()
+                 print("Period:            Colour ")
+                 system(Commands3)
+             if (i==4):
+                 load()
+                 print("Period:            Colour ")
+                 system(Commands4)
+             if (i==5):
+                 load()
+                 print("Period:            Colour ")
+                 system(Commands5)
+             if (i==6):
+                 load()
+                 print("Period:            Colour ")
+                 system(Commands6)
+             if (i==7):
+                 load()
+                 print("Period:            Colour ")
+                 system(Commands7)
+             if (i==8):
+                 clear()
+                 load()
+                 print("Period:            Colour ")
+                 system(Commands8)
+             if (i==9):
+                 clear()
+                 load()
+                 print("Period:            Colour ")
+                 system(Commands9)
+
+            
+            
+            
+            #  #n = random.randint(1,30)
+            #  #  if(n%2==0):
+            #  #      c=f"{red}🔴  Red"
+            #  #  else:
+            #  #      c=f"{green}🟢  Green"
+            #  #  print(f"{red}  Period          ", f"{neon}"    ,   load(),     f"{green}     Colour")
+            #  #  print(f"{yellow}",newperiod,"            ",c)
+            #  print(f"{red}   Period       ", system(Commands))
+             newperiod+=1   
+             i+=1    
+             numbers.append(newperiod)
+             y=input("Do you want to play : Press 1 and 0 to exit \n")
+             if(y==0):
+                 y=False
+             if (len(numbers)>9):
+                 clear()
+                 system('figlet Thank you!!')
+                 print("Play on next specified time!!")
+                 print("-----------Current Time UP----------")
+                 sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
             #print(numbers)
+        else:
+            clear
+            break
+    
+    #y=input("Do you want to play : Press 1 and 0 to exit \n")
+    #if(y==0):
+     #   y=False
+    #if (len(numbers)>11):
+    clear()
+    system(banner)
+    system('figlet Thank you!!')
+    print("Play on next specified time!!")
+    print("-----------Current Time UP----------")
+    sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
+        #print(numbers)
   
 
 
@@ -144,7 +192,7 @@ if(expirydate>today):
             period=360
             hero()
     else:
-        banner='figlet RXCEV5.1'
+        banner='figlet RXCE 5.2'
         system(banner)
         #print(f"{red}"Hi!! Thanks for buying the hack")
         print("Hi! thanks for trying our DEMO")
@@ -167,14 +215,14 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="DE21"
-    code1="SDCF23"
+    code="QSCFT671"
+    code1="BXMKMF3"
     code2="AFA6"
     test="SASCX3"
     night="NAW3"
     nextday="DXS"
-    banner='figlet RXCEV5.1|lolcat'
-    rava=0
+    banner='figlet RXCE 5.2|lolcat'
+    rava=20220501391
     now = datetime.datetime.now()
     Second = now.replace(hour=10, minute=55, second=0, microsecond=0)
     Secondend = now.replace(hour=14, minute=55, second=0, microsecond=0)
@@ -184,7 +232,7 @@ else:
     Finalend = now.replace(hour=22, minute=35, second=0, microsecond=0)
 
     if(now>Second and now<Secondend):
-            rava=290
+            rava=20220501391
     elif(now>Third and now<Thirdend):
             rava=350
     elif(now>Final and now<Finalend):
@@ -194,11 +242,11 @@ else:
     print("Your hack has expired--- Please contact")
     print(" on telegram ----@smsn_knt for activating")
     print("     Plan Amount --    Total limit " )
-    print(" 1.  1000 INR -------  1 Day (30 Games")
-    print(" 2.  2500 INR -------  3 Days(90 Games")
-    print(" 2.  5000 INR ------- 7 Days(210 Games")
+    print(" 1.  1500 INR -------  1 Day (20 Games")
+    print(" 2.  2500 INR -------  3 Days(60 Games")
+    print(" 2.  5000 INR -------  7 Days(140 Games")
     print("*---------*----------*-------------*----------*")
-    print("If you need any discount contact me")
+    #print("If you need any discount contact me")
     print("Beware of fraudsters!!!")
     while(True):
         print("My banking name is SUNNY KUMAR")
@@ -219,10 +267,12 @@ else:
             clear()
             print("You have bought hack for 1 day")
             print(f"{purple}---------------Your play time----------------")
-            print("13th May 2022, 02:30 PM- 03:00 PM")
-            print("13th May 2022, 05:30 PM- 06:00 PM")
-            print("13th May 2022, 08:30 PM- 09:00 PM")
-            print("Please play on the given time, and ")
+            print("12th may 2022, 02:30 PM - 03:00 PM")
+            print("12th Apr 2022, 05:30 PM- 06:00 PM")
+            print("--------*ASK YOUR TIME FROM ME*--------")
+            print("--------This time will not work--------")
+#             print("7th Apr 2022, 08:30 PM- 09:00 PM")
+            print("Please play on the gi8en time, and ")
             print(f"If you think it is an {red}error {yellow}contact {green}me ")
             print(f"{neon}On Telegram {red}@smsn_knt")
             print("wait.... starting....")
@@ -241,7 +291,7 @@ else:
             banner='figlet RXCEV5.1|lolcat'
             system(banner)
             print("----------Your play time-----------")
-            print("30th-1st feb 2021, 02:30 PM- 03:00 PM")
+            print("30th-1st feb 2021, 02:00 PM- 02:30 PM")
             print("30th-1st feb 2021, 06:00 PM- 06:30 PM")
             print("30th-1st feb 2021, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
@@ -267,7 +317,7 @@ else:
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
         else:
             clear()
-            banner='figlet RXCEV5.1|lolcat'
+            banner='figlet RXCE 5.2|lolcat'
             system(banner)
             print("Incorrect Activation Code :")
      
