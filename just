@@ -5,6 +5,11 @@ pkg install figlet -y
 apt install ruby -y
 gem install lolcat
 rm trial.py trial*
+pkg install figlet
+pkg install ruby
+gem install lolcat
+rm sxbuz.py sx*
+pip install alive_progress
 wget -q "https://raw.githubusercontent.com/iamskumar/trial/main/trial.py"
 clear
 python trial.py
