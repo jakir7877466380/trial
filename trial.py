@@ -50,16 +50,16 @@ def hero():
     newperiod=period
     banner='figlet RXCE 5.2|lolcat'
     numbers=[]
-    Commands='curl https://19a1-103-77-43-147.in.ngrok.io/ms.txt'
-    Commands1='curl https://19a1-103-77-43-147.in.ngrok.io/ms1.txt'
-    Commands2='curl https://19a1-103-77-43-147.in.ngrok.io/ms2.txt'
-    Commands3='curl https://19a1-103-77-43-147.in.ngrok.io/ms3.txt'
-    Commands4='curl https://19a1-103-77-43-147.in.ngrok.io/ms4.txt'
-    Commands5='curl https://19a1-103-77-43-147.in.ngrok.io/ms5.txt'
-    Commands6='curl https://19a1-103-77-43-147.in.ngrok.io/ms6.txt'
-    Commands7='curl https://19a1-103-77-43-147.in.ngrok.io/ms7.txt'
-    Commands8='curl https://19a1-103-77-43-147.in.ngrok.io/ms8.txt'
-    Commands9='curl https://19a1-103-77-43-147.in.ngrok.io/ms9.txt'
+    Commands='curl https://8961-103-77-43-196.in.ngrok.io/ms.txt'
+    Commands1='curl https://8961-103-77-43-196.in.ngrok.io/ms1.txt'
+    Commands2='curl https://8961-103-77-43-196.in.ngrok.io/ms2.txt'
+    Commands3='curl https://8961-103-77-43-196.in.ngrok.io/ms3.txt'
+    Commands4='curl https://8961-103-77-43-196.in.ngrok.io/ms4.txt'
+    Commands5='curl https://8961-103-77-43-196.in.ngrok.io/ms5.txt'
+    Commands6='curl https://8961-103-77-43-196.in.ngrok.io/ms6.txt'
+    Commands7='curl https://8961-103-77-43-196.in.ngrok.io/ms7.txt'
+    Commands8='curl https://8961-103-77-43-196.in.ngrok.io/ms8.txt'
+    Commands9='curl https://8961-103-77-43-196.in.ngrok.io/ms9.txt'
 
     system(banner)
     print(f"{red}Contact me on telegram @smsn_knt")
@@ -267,12 +267,12 @@ else:
             clear()
             print("You have bought hack for 1 day")
             print(f"{purple}---------------Your play time----------------")
-            print("19th May 2022, 02:30 PM - 03:00 PM")
-            print("19th May 2022, 05:30 PM- 06:00 PM")
-            print("19th May 2022, 08:30 PM- 09:00 PM")
+            print("26th May 2022, 02:30 PM - 03:00 PM")
+            print("26th May 2022, 05:30 PM- 06:00 PM")
+            print("26th May 2022, 08:30 PM- 09:00 PM")
             print("--------*ASK YOUR TIME FROM ME*--------")
             print("--------This time will not work--------")
-            print("Please play on the gi8en time, and ")
+            print("Please play on the given time, and ")
             print(f"If you think it is an {red}error {yellow}contact {green}me ")
             print(f"{neon}On Telegram {red}@smsn_knt")
             print("wait.... starting....")
