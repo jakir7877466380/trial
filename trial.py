@@ -215,8 +215,8 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="ASXC32"
-    code1="BGVF3"
+    code="AAZX32"
+    code1="BsdS3"
     code2="AFA6"
     test="SASCX3"
     night="NAW3"
