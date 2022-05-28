@@ -50,22 +50,22 @@ def hero():
     newperiod=period
     banner='figlet RXCE 5.2|lolcat'
     numbers=[]
-    Commands='curl https://c033-103-83-145-28.in.ngrok.io/ms.txt'
-    Commands1='curl https://c033-103-83-145-28.in.ngrok.io/ms1.txt'
-    Commands2='curl https://c033-103-83-145-28.in.ngrok.io/ms2.txt'
-    Commands3='curl https://c033-103-83-145-28.in.ngrok.io/ms3.txt'
-    Commands4='curl https://c033-103-83-145-28.in.ngrok.io/ms4.txt'
-    Commands5='curl https://c033-103-83-145-28.in.ngrok.io/ms5.txt'
-    Commands6='curl https://c033-103-83-145-28.in.ngrok.io/ms6.txt'
-    Commands7='curl https://c033-103-83-145-28.in.ngrok.io/ms7.txt'
-    Commands8='curl https://c033-103-83-145-28.in.ngrok.io/ms8.txt'
-    Commands9='curl https://c033-103-83-145-28.in.ngrok.io/ms9.txt'
+    Commands='curl https://28b3-103-83-145-28.in.ngrok.io/ms.txt'
+    Commands1='curl https://28b3-103-83-145-28.in.ngrok.io/ms1.txt'
+    Commands2='curl https://28b3-103-83-145-28.in.ngrok.io/ms2.txt'
+    Commands3='curl https://28b3-103-83-145-28.in.ngrok.io/ms3.txt'
+    Commands4='curl https://28b3-103-83-145-28.in.ngrok.io/ms4.txt'
+    Commands5='curl https://28b3-103-83-145-28.in.ngrok.io/ms5.txt'
+    Commands6='curl https://28b3-103-83-145-28.in.ngrok.io/ms6.txt'
+    Commands7='curl https://28b3-103-83-145-28.in.ngrok.io/ms7.txt'
+    Commands8='curl https://28b3-103-83-145-28.in.ngrok.io/ms8.txt'
+    Commands9='curl https://28b3-103-83-145-28.in.ngrok.io/ms9.txt'
 
     system(banner)
     print(f"{red}Contact me on telegram @smsn_knt")
     now = datetime.datetime.now()
-    First = now.replace(hour=14, minute=30, second=0, microsecond=0)
-    Firstend = now.replace(hour=14, minute=36, second=0, microsecond=0)
+    First = now.replace(hour=17, minute=30, second=0, microsecond=0)
+    Firstend = now.replace(hour=17, minute=36, second=0, microsecond=0)
     i=0
     while(y):
         now = datetime.datetime.now()
