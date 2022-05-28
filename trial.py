@@ -275,7 +275,7 @@ else:
             print("Please play on the given time, and ")
             print(f"If you think it is an {red}error {yellow}contact {green}me ")
             print(f"{neon}On Telegram {red}@smsn_knt")
-             print("We also have Prime Group starting 2000/Week contact me.. ")
+            print("We also have Prime Group starting 2000/Week contact me.. ")
             print("wait.... starting....")
             time.sleep(20)
             period=rava
