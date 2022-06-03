@@ -60,6 +60,8 @@ def hero():
     Commands7='curl https://6729-103-83-145-114.in.ngrok.io/ms7.txt'
     Commands8='curl https://6729-103-83-145-114.in.ngrok.io/ms8.txt'
     Commands9='curl https://6729-103-83-145-114.in.ngrok.io/ms9.txt'
+    Commands10='curl https://6729-103-83-145-114.in.ngrok.io/ms10.txt'
+    Commands11='curl https://6729-103-83-145-114.in.ngrok.io/ms11.txt'
 
     system(banner)
     print(f"{red}Contact me on telegram @smsn_knt")
@@ -124,6 +126,17 @@ def hero():
                  load()
                  print("Period:            Colour ")
                  system(Commands9)
+             if (i==10):
+                 clear()
+                 load()
+                 print("Period:            Colour ")
+                 system(Commands10)
+             if (i==11):
+                 clear()
+                 load()
+                 print("Period:            Colour ")
+                 system(Commands11)
+                
 
             
             
